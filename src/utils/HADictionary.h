@@ -18,6 +18,7 @@ extern const char HAComponentScene[];
 extern const char HAComponentFan[];
 extern const char HAComponentLight[];
 extern const char HAComponentClimate[];
+extern const char HAComponentValve[];
 
 // decorators
 extern const char HASerializerSlash[];
@@ -76,6 +77,13 @@ extern const char HAModesProperty[];
 extern const char HATemperatureCommandTemplateProperty[];
 extern const char HAPayloadOnProperty[];
 extern const char HAExpireAfterProperty[];
+extern const char HAPayloadOpenProperty[];
+extern const char HAPayloadCloseProperty[];
+extern const char HAPayloadStopProperty[];
+extern const char HAStateProperty[];
+extern const char HAPositionProperty[];
+extern const char HAPositionOpenProperty[];
+extern const char HAPositionClosedProperty[];
 
 // topics
 extern const char HAConfigTopic[];
@@ -131,6 +139,7 @@ extern const char HAClosingState[];
 extern const char HAOpenState[];
 extern const char HAOpeningState[];
 extern const char HAStoppedState[];
+extern const char HAReportsPosition[];
 
 // commands
 extern const char HAOpenCommand[];
